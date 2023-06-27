@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/styles.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
@@ -12,65 +13,104 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <title>IFE 1st Conference Webpage</title>
 </head>
+
 <body>
-  <nav class="nav container-fluid">
-    <ul class="menu-mobile">
-      <li><a><img src="./images/hamburger-menu.svg" width="24px" height="24px"></a></li>
-    </ul>
-    <ul class="menu-desktop">
-      <li><a class="nav-link active" aria-current="true" href="#home">Home</a></li>
-      <li><a class="nav-link" href="#program">Program</a></li>
-      <li><a class="nav-link" href="#speakers">Speakers</a></li>
-      <li><a class="nav-link" href="about.html">About</a></li>
-      <li><a class="nav-link" href="sponsor.html">Sponsor</a></li>
-      <li><a class="nav-link" href="contact.html">Contact</a></li>
-    </ul>
+  <nav class="navbar navbar-dark navbar-expand-md d-flex justify-content-between text-secondary">
+    <div class="bar-mov">
+      <a class="fs-4 text-decoration-none" href="#"><img src="./images/ife-favicon.png" width="20%" height="auto"></a>
+      <button class="toggle-btn">
+        <a><img src="./images/hamburger-menu.svg" class="hmb-btn-img" width="28px" height="28px"></a>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse justify-content-end text-primary" id="collapsibleNavbar">
+      <ul class="list-unstyled d-flex">
+        <li class="p-2 nav-link"><a href="#">Home</a></li>
+        <li class="p-2 nav-link"><a href="#program">Program</a></li>
+        <li class="p-2 nav-link"><a href="#speakers">Speakers</a></li>
+        <li class="p-2 nav-link"><a href="about.html">About</a></li>
+        <li class="p-2 nav-link"><a href="sponsor.html">Sponsor</a></li>
+        <li class="p-2"nav-link><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
   </nav>
+
   <header>
-    <h1 class="cocogoose">WELCOME TO IFE's FIRST CONFERENCE</h1>
-    <h2 class="h2-red">(Institute for the Future of Education)<br>CIIE is now the IFE Conference</h2>
-    <p>The 1st IFE Conference, formerly known as CIIE, is a space that will allow you to be part of the trends and practices that are revolutionizing the world of education.</p>
+    <h2 class="h2-red">Institute for the Future of Education</h2>
+    <h1 class="cocogoose">WELCOME TO IFE's FIRST CONFERENCE<br>January 23rd to 25th, 2024</h1>
+    <h2 class="h2-red">CIIE is now the IFE Conference</h2>
+    <p class="mt-sm-5 mt-md-5">The 1st IFE Conference, formerly known as CIIE, is a space that will allow you to be part of the trends and practices that are revolutionizing the world of education.</p>
     <p>The International Conference of Educational Innovation (#CIIETec) was born in 2006 to support innovative people in improving education. Looking towards the future, we know that education must evolve to meet the needs of our economies and societies. With this in mind, CIIE is evolving to reach new horizons.</p>
     <p>IFE Conference, created by the Institute for the Future of Education at Tecnológico de Monterrey, and named after it, will continue the trajectory of CIIE, providing an international educational innovation event every year to continue driving the future of education.</p>
   </header>
   
-  <section id="program" class="bg-dark">
-    <h2 class="text-center">Main Program</h2>
-    <!-- <h3 class="text-center font-weight-normal">Tematic lines</h3> -->
-    <ul class="list-group">
-      <li class="card bg-dark">
-        <a><img src="./images/lecture2.png" class="icons"></a>
-        <h3 class="text-danger">Lecture</h3>
-        <p class="text-white">The current and emerging trends in the field of education, which include changes in teaching methods, the use of technology in the classroom, the incorporation of socio-emotional skills in education, among other aspects.</p>
-      </li>
-      <li class="card bg-dark">
-        <a><img src="./images/forum1.png" class="icons"></a>
-        <h3 class="text-danger">Forum</h3>
-        <p class="text-white">Area of study that focuses on the application of technological tools to improve the quality of education and the teaching-learning process. This area can encompass a variety of technologies, from simple digital tools to complex online learning management systems.</p>
-      </li>
-      <li class="card bg-dark">
-        <a><img src="./images/workshop1.png" class="icons"></a>
-        <h3 class="text-danger">Workshop</h3>
-        <p class="text-white">It refers to the implementation of new ideas and practices in education and research in the field of health, with the aim of improving the quality of training and healthcare.</p>
-      </li>
-      <li class="card bg-dark">
-        <a><img src="./images/exhibition1.png" class="icons"></a>
-        <h3 class="text-danger">Exhibition</h3>
-        <p class="text-white">The management of educational innovation is crucial to evaluate its progress, benefits, and necessary resources, as well as to have the right human talent to carry out this innovation.</p>
-      </li>
-      <li class="card bg-dark">
-        <a><img src="./images/meeting1.png" class="icons"></a>
-        <h3 class="text-danger">Meetings</h3>
-        <p class="text-white">Topics that address the acquisition of knowledge, skills, and competencies throughout a person’s life with the main goal of staying up-to-date and acquiring new skills to improve employability and professional development.</p>
-      </li>
-    </ul>
+  <section id="program" class="bg-dark mb-sm-5 mb-md-5">
+    <h2 class="text-center h2-red mt-sm-5 mt-md-5">Main Program</h2>
+    <div class="row1">
+      <ul class="list-group ul-program">
+        <li class="div1 bg-dark">
+          <div class="col1">
+            <a><img src="./images/lecture2.png" width="" height="" class="icon1 card-img-left"></a>
+          </div>
+          <div class="col2">
+            <h3 class="card-title">Lecture</h3>
+          </div>
+          <div class="col3">
+            <p class="text-white card-text">The current and emerging trends in the field of education, which include changes in teaching methods, the use of technology in the classroom, the incorporation of socio-emotional skills in education, among other aspects.</p>
+          </div>
+        </li>
+        <li class="div1 bg-dark">
+          <div class="col1">
+            <a><img src="./images/forum2.png" width="" height="" class="icon2 card-img-left"></a>
+          </div>
+          <div class="col2">
+            <h3 class="card-title">Forum</h3>
+          </div>
+          <div class="col3">
+            <p class="text-white card-text">Area of study that focuses on the application of technological tools to improve the quality of education and the teaching-learning process. This area can encompass a variety of technologies, from simple digital tools to complex online learning management systems.</p>
+          </div>
+        </li>
+        <li class="div1 bg-dark">
+          <div class="col1">
+            <a><img src="./images/workshop2.png" width="" height="" class="icon3"></a>
+          </div>
+          <div class="col2">
+            <h3 class="card-title">Workshop</h3>
+          </div>
+          <div class="col3">
+            <p class="text-white card-text">It refers to the implementation of new ideas and practices in education and research in the field of health, with the aim of improving the quality of training and healthcare.</p>
+          </div>
+        </li>
+        <li class="div1 bg-dark">
+          <div class="col1">
+            <a><img src="./images/exhibition2.png" width="" height="" class="icon4"></a>
+          </div>
+          <div class="col2">
+            <h3 class="card-title">Exhibition</h3>
+          </div>
+          <div class="col3">
+            <p class="text-white card-text">The management of educational innovation is crucial to evaluate its progress, benefits, and necessary resources, as well as to have the right human talent to carry out this innovation.</p>
+          </div>
+        </li>
+        <li class="div1 bg-dark">
+          <div class="col1">
+            <a><img src="./images/meeting2.png" width="" height="" class="icon5"></a>
+          </div>
+          <div class="col2">
+            <h3 class="card-title">Meetings</h3>
+          </div>
+          <div class="col3">
+            <p class="text-white card-text">Topics that address the acquisition of knowledge, skills, and competencies throughout a person’s life with the main goal of staying up-to-date and acquiring new skills to improve employability and professional development.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
   </section>
   <section id="speakers">
-    <h2 class="text-center">Speakers</h2>
-    <p>Some elements in the Speakers section.</p>
+    <h2 class="text-center h2-red mt-sm-5 mt-md-5">Speakers</h2>
+    <p class="text-center card-text">Some elements in the Speakers section.</p>
   </section>
   <section id="footer" class="bg-dark">
-    <p class="text-white">Some elements in the footer.</p>
+    <p class="text-white text-center para2">Some elements in the footer.</p>
   </section>
 </body>
 </html>
