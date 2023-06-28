@@ -23,8 +23,8 @@ a.nav-link {
 }
 
 a.nav-link:hover {
-  color:rgb(250, 165, 7);
-  background-color:oldlace;
+  color: rgb(250, 165, 7);
+  background-color: oldlace;
 }
 
 a.nav-link:active {
@@ -74,7 +74,7 @@ ul {
   color: #ec5242;
   padding-top: 30px;
   padding-bottom: 20px;
-  font-weight: 500px;
+  font-weight: 500;
 }
 
 .icons {
@@ -110,7 +110,6 @@ ul {
 }
 
 @media only screen and (max-width: 767px) {
-
   .div1 {
     margin-left: 5%;
     width: 90%;
@@ -123,7 +122,7 @@ ul {
 
   .col1 {
     padding-top: 15px;
-    padding-left: 5px;;
+    padding-left: 5px;
     width: 20%;
     vertical-align: middle;
   }
@@ -139,7 +138,7 @@ ul {
   }
 
   .div1 h3 {
-    font-size: 1.0rem;
+    font-size: 1rem;
   }
 
   .div1 p {
@@ -177,8 +176,11 @@ ul {
     background-color: transparent;
   }
 
-  .icon1, .icon2,
-  .icon3, .icon4, .icon5 {
+  .icon1,
+  .icon2,
+  .icon3,
+  .icon4,
+  .icon5 {
     width: 50%;
     height: 50%;
   }
@@ -213,7 +215,6 @@ ul {
   .partners {
     padding: 0.6rem;
   }
-
 }
 
 @media only screen and (min-width: 768px) {
