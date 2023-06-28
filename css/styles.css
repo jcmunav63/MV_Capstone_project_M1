@@ -209,7 +209,7 @@ ul {
     padding-right: 7%;
     padding-bottom: 5rem;
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
   }
 
   .partners {
