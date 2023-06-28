@@ -4,13 +4,112 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/styles.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <title>IFE 1st Conference Webpage</title>
 </head>
+
 <body>
-  <h1>Welcome to the IFE 1st Conference<br>(Institute for the Future of Education - ITESM, Mexico)</h1>
-  <p>Come and join us! We'll have a great time!</p>
+  <nav class="navbar navbar-dark navbar-expand-md d-flex justify-content-between text-secondary">
+    <div class="bar-mov">
+      <a class="fs-4 text-decoration-none" href="#"><img src="./images/ife-favicon-black2.svg" width="25%" height="auto"></a>
+      <button class="toggle-btn">
+        <a><img src="./images/hamburger-menu.svg" class="hmb-btn-img" width="28px" height="auto"></a>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse justify-content-end text-primary" id="collapsibleNavbar">
+      <ul class="list-unstyled d-flex">
+        <li class="p-3 nav-link"><a href="#program">Program</a></li>
+        <li class="p-3 nav-link"><a href="#speakers">Speakers</a></li>
+        <li class="p-3 nav-link"><a href="about.html">About</a></li>
+        <li class="p-3 nav-link"><a href="sponsor.html">Sponsor</a></li>
+        <li class="p-3"nav-link><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header>
+    <h2 class="h2-red">Institute for the Future of Education</h2>
+    <h1 class="cocogoose">WELCOME TO IFE's FIRST CONFERENCE<br>January 23rd to 25th, 2024</h1>
+    <h2 class="h2-red">CIIE is now the IFE Conference</h2>
+    <p class="mt-sm-5 mt-md-5">The 1st IFE Conference, formerly known as CIIE (International Conference of Educational Innovation), is a space that will allow you to be part of the trends and practices that are revolutionizing the world of education.</p>
+    <p class="fs-4 fw-bold cocogoose para3">2024.01.23 (TUE) ~ 25 (THU)</p>
+    <p class="f2-2 fw-normal">@ Instututo Tecnologico de Monterrey - Campus</p>
+  </header>
+  
+  <section id="program" class="bg-dark mb-sm-5 mb-md-5">
+    <h2 class="text-center h2-red mt-sm-5 mt-md-5">Main Program</h2>
+    <div class="row1">
+      <ul class="list-group ul-program">
+        <li class="div1">
+          <div class="col1">
+            <a><img src="./images/lecture3.webp" width="" height="" class="icon1 card-img-left"></a>
+          </div>
+          <div class="col2">
+            <h3 class="card-title">Lecture</h3>
+          </div>
+          <div class="col3">
+            <p class="text-white card-text">The current and emerging trends in the field of education, which include changes in teaching methods, the use of technology in the classroom, the incorporation of socio-emotional skills in education, among other aspects.</p>
+          </div>
+        </li>
+        <li class="div1">
+          <div class="col1">
+            <a><img src="./images/forum3.webp" width="" height="" class="icon2 card-img-left"></a>
+          </div>
+          <div class="col2">
+            <h3 class="card-title">Forum</h3>
+          </div>
+          <div class="col3">
+            <p class="text-white card-text">Area of study that focuses on the application of technological tools to improve the quality of education and the teaching-learning process. This area can encompass a variety of technologies, from simple digital tools to complex online learning management systems.</p>
+          </div>
+        </li>
+        <li class="div1">
+          <div class="col1">
+            <a><img src="./images/workshop3.webp" width="" height="" class="icon3"></a>
+          </div>
+          <div class="col2">
+            <h3 class="card-title">Workshop</h3>
+          </div>
+          <div class="col3">
+            <p class="text-white card-text">It refers to the implementation of new ideas and practices in education and research in the field of health, with the aim of improving the quality of training and healthcare.</p>
+          </div>
+        </li>
+        <li class="div1">
+          <div class="col1">
+            <a><img src="./images/exhibition3.webp" width="" height="" class="icon4"></a>
+          </div>
+          <div class="col2">
+            <h3 class="card-title">Exhibition</h3>
+          </div>
+          <div class="col3">
+            <p class="text-white card-text">The management of educational innovation is crucial to evaluate its progress, benefits, and necessary resources, as well as to have the right human talent to carry out this innovation.</p>
+          </div>
+        </li>
+        <li class="div1">
+          <div class="col1">
+            <a><img src="./images/meeting3.webp" width="" height="" class="icon5"></a>
+          </div>
+          <div class="col2">
+            <h3 class="card-title">Meetings</h3>
+          </div>
+          <div class="col3">
+            <p class="text-white card-text">Topics that address the acquisition of knowledge, skills, and competencies throughout a person’s life with the main goal of staying up-to-date and acquiring new skills to improve employability and professional development.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <button type="button" class="btn-red text-center">
+      Join IFE's 2024 Conference
+    </button>
+  </section>
+  <section id="speakers">
+    <h2 class="text-center mt-sm-5 mt-md-5 speak">Featured Speakers</h2>
+    <p class="text-center card-text">Something soon.</p>
+  </section>
 </body>
 </html>
