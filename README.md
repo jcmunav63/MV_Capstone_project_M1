@@ -28,7 +28,7 @@ Module 1 Capstone Project - Conference page (HTML, CSS & JAVASCRIPT)
 
 # 📖 [MV_Capstone_project_M1 - Module 1 Capstone Project - Conference Page (HTML, CSS & JAVASCRIPT).] <a name="about-project"></a>
 
-**MV_Capstone_project_M1** It's a Conference Page responsive web site! This is a Capstone Project to include all learning topics of Microverse Program's Module 1. First branch: Setup project.
+**MV_Capstone_project_M1** It's a Conference Page responsive web site! This is a Capstone Project to include all learning topics of Microverse Program's Module 1. Second branch: Desktop version.
 
 
 ## 🛠️ Built With <a name="built-with">
@@ -56,7 +56,7 @@ Module 1 Capstone Project - Conference page (HTML, CSS & JAVASCRIPT)
 🚀 Live Demo
 Link to our deployed project.
 
-- https://jcmunav63.github.io/
+- https://jcmunav63.github.io/MV_Capstone_project_M1/
 
 <!-- GETTING STARTED -->
 
@@ -134,7 +134,6 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Desktop version**
 - **Interactions**
 - **Dynamic HTML section**
 
