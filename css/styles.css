@@ -7,7 +7,7 @@
 body {
   font-family: 'LATO', sans-serif;
   color: #272a31;
-  background-position: 0% 5%;
+  /* background-position: 0% 5%; */
   background-image: url('../images/background2.svg');
   background-repeat: no-repeat;
   background-size: 100%;
@@ -16,19 +16,29 @@ body {
 nav {
   font-weight: 500;
   justify-content: end;
+  height: 55px;
+  position: fixed;
 }
 
-a.nav-link {
-  color: #d3d3d3;
+a {
+  color: #272a31;
 }
 
-a.nav-link:hover {
-  color: rgb(250, 165, 7);
-  background-color: oldlace;
+.a-menu {
+  color: #272a31;
 }
 
-a.nav-link:active {
+.a-menu:hover {
+  color: rgb(250, 116, 7);
+  background-color: #fdf5e6;
+}
+
+.a-menu:active {
   color: #ec5242;
+}
+
+.nav-link:hover {
+  color: rgb(250, 116, 7);
 }
 
 header {
@@ -62,8 +72,7 @@ ul {
 #footer {
   box-sizing: border-box;
   width: 100%;
-  height: 150px;
-  margin-bottom: 30px;
+  min-height: 150px;
 }
 
 .cocogoose {
@@ -97,19 +106,11 @@ ul {
   color: #272a31;
 }
 
-.ife-logo-img {
-  margin: 8px 22% 20px 22%;
-}
-
-.ife1-img {
-  margin: 8px 15% 20px 15%;
-}
-
-.logo-tec-img {
-  margin: 35px auto 0 auto;
-}
-
 @media only screen and (max-width: 767px) {
+  body {
+    background-position: 0% 0%;
+  }
+
   .div1 {
     margin-left: 5%;
     width: 90%;
@@ -198,33 +199,63 @@ ul {
 
   .para4 {
     padding-top: 10px;
+    padding-bottom: 10px;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
   }
 
   .row2 {
-    width: 85%;
-    padding-left: 7%;
-    padding-right: 7%;
+    width: 90%;
+    padding-left: 8%;
+    padding-right: 2%;
     padding-bottom: 5rem;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: wrap;
   }
 
   .partners {
-    padding: 0.6rem;
+    padding: 0.4rem;
+    border-radius: 8px;
+    max-width: 35%%;
+  }
+
+  .ife-logo-img {
+    margin: 8px 22% 20px 22%;
+  }
+  
+  .ife1-img {
+    margin: 8px 15% 20px 15%;
+    border-radius: 4px;
+  }
+  
+  .logo-tec-img {
+    margin: 35px auto 0 auto;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  /* .menu-mobile {
+  body {
+    background-position: 0% 0%;
+  }
+
+  ul.list-unstyled.d-flex {
+    margin-top: 15px;
+    margin-bottom: 0;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  #partner {
     display: none;
   }
 
-  .menu-desktop {
-    margin-right: 20%;
-  } */
+  #footer {
+    background-color: black;
+    padding-bottom: 30px;
+  }
 
   .card {
     width: 20%;
@@ -242,7 +273,46 @@ ul {
     margin-left: 3%;
   }
 
-  /* .hmb-btn {
-    display: none;
-  } */
+  .card-text2 {
+    width: 80%;
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .row1 {
+    display: flex;
+  }
+
+  .list-group {
+    display: flex;
+  }
+
+  .div1 {
+    width: 10%;
+  }
+
+  .partners {
+    padding: 0.6rem;
+  }
+
+  .ife-logo-img {
+    max-width: 40%;
+    margin: 8px 28% 20px 28%;
+  }
+
+  .ife1-img {
+    max-width: 50%;
+    border-radius: 6px;
+    margin: 8px 24% 20px 24%;
+  }
+
+  .para4 {
+    font-size: 0.9rem;
+    color: #fff;
+  }
+
+  .logo-tec-img {
+    margin: 35px auto 0 auto;
+  }
 }
