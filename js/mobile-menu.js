@@ -1,18 +1,18 @@
 // FIle for Mobile Menu interaction
-const menuBtn = document.querySelector('.toggle-btn');
-const overlay = document.querySelector('.overlay');
-const closeBtn = document.querySelector('.close-btn');
+const menuBtn = document.querySelector('.hmb-menu');
+const myModal = document.querySelector('.overlay');
+const closeButton = document.querySelector('.toolbar-2');
 
 menuBtn.addEventListener('click', () => {
-  overlay.classList.add('show');
+  myModal.classList.add('show');
 });
 
-closeBtn.addEventListener('click', () => {
-  overlay.classList.remove('show');
+closeButton.addEventListener('click', () => {
+  myModal.classList.remove('show');
 });
 
-overlay.querySelectorAll('a').forEach((link) => {
+myModal.querySelectorAll('a').forEach((link) => {
   link.addEventListener('click', () => {
-    overlay.classList.remove('show');
+    myModal.classList.remove('show');
   });
 });

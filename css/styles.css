@@ -7,9 +7,6 @@
 body {
   font-family: 'LATO', sans-serif;
   color: #272a31;
-  background-image: url('../images/background2.svg');
-  background-repeat: no-repeat;
-  background-size: 100%;
 }
 
 nav {
@@ -21,6 +18,17 @@ nav {
 
 a {
   color: #272a31;
+}
+
+.photo {
+  height: 250px;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 100%;
+  background-image: url('../images/conference.svg');
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: 0% 0%;
 }
 
 .a-menu {
@@ -106,10 +114,6 @@ ul {
 }
 
 @media only screen and (max-width: 767px) {
-  body {
-    background-position: 0% 0%;
-  }
-
   .logo-ife {
     display: none;
   }
@@ -118,12 +122,26 @@ ul {
     display: none;
   }
 
+  .show {
+    position: fixed;
+    display: block;
+    background-color: rgb(39, 42, 49, 0.8);
+    width: 100%;
+    height: 810px;
+    left: 0;
+    top: 0;
+    right: 0;
+  }
+
   .overlay-ul {
-    margin-top: 15px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
   }
 
   .overlay-li {
-    padding-left: 20px;
+    padding-left: 25px;
   }
 
   .a-li {
@@ -131,19 +149,39 @@ ul {
     font-size: 32px;
     line-height: 56px;
     font-weight: 550;
-    margin-left: 2%;
-    margin-top: 26%;
+    margin-left: 5%;
+    margin-top: 28%;
+    text-decoration: none;
   }
 
-  .show {
-    position: fixed;
+  .a-li:hover, .a-li:active {
+    color: #ec5242;
+  }
+
+  .cancel1 {
+    margin-top: 29px;
+    margin-left: 25px;
+  }
+
+  .hmb-menu {
     display: block;
-    background-color: rgb(236, 82, 66, 0.9);
-    width: 100%;
-    height: 810px;
-    left: 0;
-    top: 0;
-    right: 0;
+  }
+
+  .menu2 {
+    position: fixed;
+    margin-top: 10px;
+    margin-left: 4%;
+    float: left;
+    width: 30px;
+    background-color: transparent;
+  }
+
+  .p-red {
+    color: #ec5242;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 1.5em;
+    font-weight: 500;
   }
 
   .div1 {
@@ -266,10 +304,6 @@ ul {
 }
 
 @media only screen and (min-width: 768px) {
-  body {
-    background-position: 0% 0%;
-  }
-
   ul.list-unstyled.d-flex {
     margin-top: 15px;
     margin-bottom: 0;
@@ -296,7 +330,15 @@ ul {
     margin-right: 10%;
   }
 
-  .toggle-btn {
+  .hmb-menu {
+    display: none;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu2 {
     display: none;
   }
 
@@ -306,6 +348,14 @@ ul {
 
   .row1 {
     display: flex;
+  }
+
+  .p-red {
+    color: #ec5242;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 2em;
+    font-weight: 500;
   }
 
   .icon1,
