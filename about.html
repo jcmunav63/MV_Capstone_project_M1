@@ -15,26 +15,37 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-dark navbar-expand-md d-flex justify-content-between text-secondary">
-    <div class="bar-mov">
-      <a class="fs-4 text-decoration-none" href="index.html"><img src="./images/ife-favicon-black3.svg" width="25%" height="auto"></a>
-      <button type="button" class="toggle-btn">
-        <a><img src="./images/hamburger-menu.svg" class="hmb-btn-img" width="28px" height="auto"></a>
-      </button>
+  <nav class="navbar navbar-dark navbar-expand-md d-flex justify-content-between text-secondary mt-3">
+    <div class="bar-mov ml-3">
+      <a class="fs-4 text-decoration-none logo-ife" href="index.html"><img src="./images/ife-favicon-black3.svg" width="32px" height="auto"></a>
+      <a class="hmb-menu" href="#"><img src="./images/hamburger-menu-gray.svg" width="24px" height="auto"></a>
+    </div>
+    <div class="overlay">
+      <div class="toolbar-2">
+        <img class="cancel1" alt="menu-cancel" width="24px" height="24px" src="images/cancel1.png">
+      </div>
+      <ul class="overlay-ul">
+        <li class="overlay-li"><a class="a-li" href="index.html#program">Program</a></li>
+        <li class="overlay-li"><a class="a-li" href="index.html#speakers">Speakers</a></li>
+        <li class="overlay-li"><a class="a-li" href="about.html">About</a></li>
+        <li class="overlay-li"><a class="a-li" href="index.html#">Sponsor</a></li>
+        <li class="overlay-li"><a class="a-li" href="index.html#">Contact</a></li>
+      </ul>
     </div>
     <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
       <ul class="list-unstyled d-flex">
         <li class="nav-link"><a class="text-decoration-none p-3 a-menu" href="index.html#program">Program</a></li>
         <li class="nav-link"><a class="text-decoration-none p-3 a-menu" href="index.html#speakers">Speakers</a></li>
         <li class="nav-link"><a class="text-decoration-none p-3 a-menu" href="about.html">About</a></li>
-        <li class="nav-link"><a class="text-decoration-none p-3 a-menu" href="#">Sponsor</a></li>
-        <li class="nav-link"><a class="text-decoration-none p-3 a-menu" href="#">Contact</a></li>
+        <li class="nav-link"><a class="text-decoration-none p-3 a-menu" href="index.html#">Sponsor</a></li>
+        <li class="nav-link"><a class="text-decoration-none p-3 a-menu" href="index.html#">Contact</a></li>
       </ul>
     </div>
   </nav>
 
+  <div class="photo"></div>
   <header>
-    <h2 class="h2-red">Institute for the Future of Education</h2>
+    <p class="p-red">Institute for the Future of Education</p>
     <h1 class="cocogoose">WELCOME TO IFE's FIRST CONFERENCE<br>January 23rd to 25th, 2024</h1>
     <h2 class="h2-red">CIIE is now the IFE Conference</h2>
     <p class="text-center mt-sm-5 mt-md-5">The International Conference of Educational Innovation (#CIIETec) was born in 2006 to support innovative people in improving education. Looking towards the future, we know that education must evolve to meet the needs of our economies and societies. With this in mind, CIIE is evolving to reach new horizons.</p>
@@ -74,5 +85,6 @@
     </div>
     <p class="text-center para4">Tecnológico de Monterrey, Campus Monterrey.<br>Av. Eugenio Garza Sada 2501 Sur, Col. Tecnológico, Monterrey, Nuevo León, México<br>Contact: ciie@servicios.itesm.mx</p>
   </section>
+  <script src="/js/mobile-menu.js"></script>
 </body>
 </html>

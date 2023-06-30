@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="shortcut icon" href="./images/ife-favicon.png">
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
   <link href="https://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -15,12 +16,22 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-dark navbar-expand-md d-flex justify-content-between text-secondary">
-    <div class="bar-mov">
-      <a class="fs-4 text-decoration-none" href="#"><img src="./images/ife-favicon-black3.svg" width="25%" height="auto"></a>
-      <button type="button" class="toggle-btn">
-        <a><img src="./images/hamburger-menu.svg" class="hmb-btn-img" width="28px" height="auto"></a>
-      </button>
+  <nav class="navbar navbar-dark navbar-expand-md d-flex justify-content-between text-secondary mt-3">
+    <div class="bar-mov ml-3">
+      <a class="fs-4 text-decoration-none logo-ife" href="#"><img src="./images/ife-favicon-black3.svg" width="32px" height="auto"></a>
+      <a class="hmb-menu" type="button" href="#"><img src="./images/hamburger-menu-gray.svg" width="24px" height="auto"></a>
+    </div>
+    <div class="overlay">
+      <div class="toolbar-2">
+        <img class="cancel1" alt="menu-cancel" width="24px" height="24px" src="images/cancel1.png">
+      </div>
+      <ul class="overlay-ul">
+        <li class="overlay-li"><a class="a-li" href="#program">Program</a></li>
+        <li class="overlay-li"><a class="a-li" href="#speakers">Speakers</a></li>
+        <li class="overlay-li"><a class="a-li" href="about.html">About</a></li>
+        <li class="overlay-li"><a class="a-li" href="#">Sponsor</a></li>
+        <li class="overlay-li"><a class="a-li" href="#">Contact</a></li>
+      </ul>
     </div>
     <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
       <ul class="list-unstyled d-flex">
@@ -33,15 +44,15 @@
     </div>
   </nav>
 
+  <div class="photo"></div>
   <header>
-    <h2 class="h2-red">Institute for the Future of Education</h2>
+    <p class="p-red">Institute for the Future of Education</p>
     <h1 class="cocogoose">WELCOME TO IFE's FIRST CONFERENCE<br>January 23rd to 25th, 2024</h1>
     <h2 class="h2-red">CIIE is now the IFE Conference</h2>
     <p class="mt-sm-5 mt-md-5">The 1st IFE Conference, formerly known as CIIE (International Conference of Educational Innovation), is a space that will allow you to be part of the trends and practices that are revolutionizing the world of education.</p>
     <p class="fs-4 fw-bold cocogoose para3">2024.01.23 (TUE) ~ 25 (THU)</p>
     <p class="f2-2 fw-normal">@ Instututo Tecnologico de Monterrey - Campus</p>
   </header>
-  
   <section id="program" class="bg-dark mb-sm-5 mb-md-5">
     <h2 class="text-center h2-red mt-sm-5 mt-md-5">Main Program</h2>
     <div class="row1">
@@ -111,5 +122,6 @@
     <h2 class="text-center mt-sm-5 mt-md-5 speak">Featured Speakers</h2>
     <p class="text-center card-text">Something soon.</p>
   </section>
+  <script src="../js/mobile-menu.js"></script>
 </body>
 </html>
