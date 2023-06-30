@@ -154,7 +154,8 @@ ul {
     text-decoration: none;
   }
 
-  .a-li:hover, .a-li:active {
+  .a-li:hover,
+  .a-li:active {
     color: #ec5242;
   }
 
