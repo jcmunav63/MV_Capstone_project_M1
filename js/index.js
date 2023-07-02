@@ -86,27 +86,22 @@ function loadGrid() {
     if (i > 1) {
       row.classList.add('hide');
     }
-  };
-};
+  }
+}
 
 // REVIEW - SHOW - HIDE SPEAKERS
 window.addEventListener('load', () => {
-
   loadGrid();
-
 });
 
 const seeMore = document.querySelector('.see-more');
 const seeLess = document.querySelector('.see-less');
-let x = '';
-
 seeMore.addEventListener('click', () => {
   const rows = document.querySelectorAll('.hide').forEach((row) => {
     row.classList.add('show-rows');
   });
   seeLess.classList.add('show-rows');
   seeMore.classList.add('hide');
-  x = rows;
 });
 
 seeLess.addEventListener('click', () => {
@@ -115,5 +110,4 @@ seeLess.addEventListener('click', () => {
   });
   seeLess.classList.remove('show-rows');
   seeMore.classList.remove('hide');
-  x = rows;
 });
