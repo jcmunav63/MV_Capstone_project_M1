@@ -5,8 +5,12 @@
 }
 
 body {
-  font-family: 'LATO', sans-serif;
   color: #272a31;
+  font-family: 'Lato', sans-serif;
+  background-image: url('../images/conference3.svg');
+  background-repeat: no-repeat;
+  background-size: 1920px 1080px;
+  background-position: 35% 0%;
 }
 
 nav {
@@ -20,15 +24,15 @@ a {
   color: #272a31;
 }
 
+.lato {
+  font-family: 'Lato', sans-serif;
+}
+
 .photo {
-  height: 250px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-top: 100px;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
   width: 100%;
-  background-image: url('../images/conference.svg');
-  background-repeat: no-repeat;
-  background-size: 90%;
-  background-position: 0% 0%;
 }
 
 .a-menu {
@@ -50,7 +54,7 @@ a {
 
 header {
   width: 65%;
-  margin: 15% 20% 5% 16%;
+  margin: 0% 20% 5% 16%;
 }
 
 h1 {
@@ -80,6 +84,16 @@ ul {
   box-sizing: border-box;
   width: 100%;
   min-height: 150px;
+  display: flex;
+}
+
+#footer-i {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 150px;
+  background-color: #fff;
+  display: flex;
+  margin-top: 50px;
 }
 
 .cocogoose {
@@ -93,13 +107,27 @@ ul {
   font-weight: 500;
 }
 
+.h2-white {
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-weight: 500;
+}
+
+.h2-gray {
+  color: #aaa9a9;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-weight: 500;
+}
+
 .icons {
   color: #fff;
   width: 50%;
 }
 
 .btn-red {
-  margin: 20px 22% 40px 22%;
+  margin: 20px 22% 40px 25%;
   padding: 12px;
   border-radius: 4px;
   background-color: #ec5242;
@@ -114,6 +142,13 @@ ul {
 }
 
 @media only screen and (max-width: 767px) {
+  body {
+    background-image: url('../images/conference3.svg');
+    background-repeat: no-repeat;
+    background-size: 820px 880px;
+    background-position: top;
+  }
+
   .logo-ife {
     display: none;
   }
@@ -195,6 +230,11 @@ ul {
     border-radius: 4px;
   }
 
+  .div1:hover {
+    border: solid 1px #fff;
+    border-radius: 4px;
+  }
+
   .col1 {
     padding-top: 15px;
     padding-left: 5px;
@@ -268,10 +308,10 @@ ul {
   }
 
   .para4 {
-    padding-top: 10px;
+    padding-top: 30px;
     padding-bottom: 10px;
     width: 80%;
-    margin-left: auto;
+    margin-left: 10px;
     margin-right: auto;
   }
 
@@ -291,16 +331,143 @@ ul {
   }
 
   .ife-logo-img {
-    margin: 8px 22% 20px 22%;
+    margin: 8px 5px 20px 5px;
+  }
+
+  .ife-logo-blue-img {
+    margin: 8px 20% 20px 25%;
   }
 
   .ife1-img {
-    margin: 8px 15% 20px 15%;
+    margin: 8px 5% 20px 14%;
+    border-radius: 4px;
+  }
+
+  .ife2-img {
+    margin: 8px 4% 20px 4%;
     border-radius: 4px;
   }
 
   .logo-tec-img {
-    margin: 35px auto 0 auto;
+    margin-top: 70px;
+    margin-left: 15px;
+    width: 45%;
+  }
+
+  .grid1 {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rows {
+    margin-top: 30px;
+    margin-left: 15px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .div1-sp {
+    width: 30%;
+    margin-left: 10px;
+    height: auto;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-image: url('../images/chess.png');
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: 0% 0%;
+  }
+
+  .div2-sp {
+    width: 90%;
+    height: auto;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .photo-sp {
+    padding-top: 3px;
+    padding-left: 3px;
+    width: 70%;
+    height: 70%px;
+  }
+
+  .name-sp {
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 2px;
+  }
+
+  .position-sp {
+    font-size: small;
+    color: #ec5242;
+    font-weight: 500;
+    margin-bottom: 2px;
+  }
+
+  .descr-sp {
+    font-size: small;
+    margin-bottom: 2px;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .show-rows {
+    display:flex;
+  }
+
+  .less {
+    display: none;
+  }
+
+  .see-more {
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 10%;
+    padding: 8px;
+    border-radius: 8px;
+    border: solid 1px #38393d;
+    text-align: center;
+  }
+
+  .see-more:hover {
+    border: solid 1px #ec5242;
+    color: #ec5242;
+    font-weight: bold;
+  }
+
+  .see-less {
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 10%;
+    padding: 8px;
+    border-radius: 8px;
+    border: solid 1px #38393d;
+    text-align: center;
+  }
+
+  .see-less:hover {
+    border: solid 1px #ec5242;
+    color: #ec5242;
+    font-weight: bold;
+  }
+
+  .sp {
+    padding-left: 43%;
+  }
+
+  #partner-i {
+    display: none;
+  }
+
+  #footer-i {
+    display: none;
   }
 }
 
@@ -316,6 +483,10 @@ ul {
 
   #partner {
     display: none;
+  }
+
+  #partner-i {
+    display: block;
   }
 
   #footer {
@@ -344,11 +515,18 @@ ul {
   }
 
   .bar-mov {
-    margin-left: 3%;
+    margin-left: 5%;
   }
 
   .row1 {
     display: flex;
+  }
+
+  .row2 {
+    width: 70%;
+    margin-left: 20%;
+    display: flex;
+    padding-bottom: 25px;
   }
 
   .p-red {
@@ -399,12 +577,83 @@ ul {
     border-radius: 4px;
   }
 
+  .div1:hover {
+    border: solid 1px #fff;
+    border-radius: 4px;
+  }
+
   .btn-red {
-    margin: 20px 35% 40px 35%;
+    margin: 20px 32% 40px 41%;
   }
 
   .partners {
     padding: 0.6rem;
+  }
+
+  .grid1 {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .rows {
+    margin-top: 30px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .see-more {
+    display: none;
+  }
+
+  .see-less {
+    display: none;
+  }
+
+  .div1-sp {
+    width: 30%;
+    height: auto;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-image: url('../images/chess.png');
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: 0% 0%;
+  }
+
+  .div2-sp {
+    width: 90%;
+    height: auto;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .photo-sp {
+    padding-top: 3px;
+    padding-left: 3px;
+    width: 70%;
+    height: 70%px;
+  }
+
+  .name-sp {
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 2px;
+  }
+
+  .position-sp {
+    font-size: small;
+    color: #ec5242;
+    font-weight: 500;
+    margin-bottom: 2px;
+  }
+
+  .descr-sp {
+    font-size: small;
+    margin-bottom: 2px;
   }
 
   .ife-logo-img {
@@ -412,19 +661,27 @@ ul {
     margin: 8px 28% 20px 28%;
   }
 
+  .ife-logo-blue-img {
+    margin: 8px 20% 20px 25%;
+  }
+
   .ife1-img {
-    max-width: 50%;
+    max-width: 60%;
     border-radius: 6px;
-    margin: 8px 24% 20px 24%;
+    margin: 8px 24% 20px 20%;
   }
 
   .para4 {
+    margin-top: 35px;
     font-size: 0.9rem;
     color: #fff;
+    width: 60%;
+    text-align: left;
   }
 
   .logo-tec-img {
-    margin: 35px auto 0 auto;
+    margin-left: 20%;
+    margin-top: 35px;
   }
 
   .col1 {
