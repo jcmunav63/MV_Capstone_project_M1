@@ -137,6 +137,7 @@ ul {
   color: #272a31;
 }
 
+/* Desktop version */
 @media only screen and (max-width: 767px) {
   body {
     background-image: url('../images/conference3.svg');
