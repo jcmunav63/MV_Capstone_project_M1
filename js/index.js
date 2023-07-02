@@ -100,16 +100,16 @@ seeMore.addEventListener('click', () => {
   const rows = document.querySelectorAll('.hide').forEach((row) => {
     row.classList.add('show-rows');
   });
-  rows.push('');
   seeLess.classList.add('show-rows');
   seeMore.classList.add('hide');
+  rows.push('');
 });
 
 seeLess.addEventListener('click', () => {
   const rows = document.querySelectorAll('.hide').forEach((row) => {
     row.classList.remove('show-rows');
   });
-  rows.push('');
   seeLess.classList.remove('show-rows');
   seeMore.classList.remove('hide');
+  rows.push('');
 });
