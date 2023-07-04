@@ -36,21 +36,27 @@ a {
 }
 
 .a-menu:hover {
-  color: rgb(250, 116, 7);
-  background-color: #fdf5e6;
+  /* color: rgb(250, 116, 7); */
+  color: #ec5242;
+  /* background-color: #fdf5e6; */
+  border: 4px solid #ec5242;
+  border-radius: 4px;
 }
 
 .a-menu:active {
   color: #ec5242;
+  border: 4px solid #ec5242;
+  border-radius: 4px;
 }
 
 .nav-link:hover {
   color: rgb(250, 116, 7);
 }
 
-header {
-  width: 65%;
-  margin: 0% 20% 5% 16%;
+.a-menub {
+  color: #ec5242;
+  border: 4px solid #ec5242;
+  border-radius: 4px;
 }
 
 h1 {
@@ -60,7 +66,7 @@ h1 {
 }
 
 p {
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 400;
   color: #272a31;
 }
@@ -72,7 +78,10 @@ ul {
 
 #program {
   box-sizing: border-box;
-  background-color: #272a31;
+  /* background-color: #272a31; */
+  background-image: url('../images/mosaic1.png');
+  background-repeat: repeat;
+  background-size: 2%;
   width: 100%;
 }
 
@@ -146,8 +155,29 @@ ul {
     background-position: 0 -680px;
   }
 
+  header {
+    width: 98%;
+    margin: 3% 1% 5% 1%;
+  }
+
   #speakers {
     padding-bottom: 30px;
+  }
+
+  .para5 {
+    border: 3px solid #fff;
+    border-radius: 4px;
+    background-color: #d3d3d3;
+    padding: 5px;
+  }
+
+  .para6 {
+    color: #000;
+    border: 3px solid #d3d3d3;
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 5px;
+    width: 100%;
   }
 
   .hr-home2 {
@@ -523,6 +553,11 @@ ul {
     font-size: 1.2rem;
   }
 
+  header {
+    width: 65%;
+    margin: 3% 17% 5% 18%;
+  }
+
   .hr-home2 {
     border-top: solid 4px #cf4232;
     width: 5%;
@@ -530,11 +565,14 @@ ul {
   }
 
   .h2-white {
-      padding-bottom: 5px;
+      padding-bottom: 0px;
   }
 
   #program {
     width: 100%;
+    background-image: url('../images/mosaic1.png');
+    background-repeat: repeat;
+    background-size: 2%;
   }
 
   .speak {
@@ -561,6 +599,21 @@ ul {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .para5 {
+    border: 3px solid #fff;
+    border-radius: 4px;
+    background-color: #d3d3d3;
+    padding: 5px;
+  }
+
+  .para6 {
+    color: #000;
+    border: 3px solid #d3d3d3;
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 5px;
   }
 
   .vector {
@@ -646,7 +699,7 @@ ul {
   .list-group {
     margin-left: 5%;
     margin-right: 5%;
-    gap: 3px;
+    gap: 4px;
   }
 
   .div1 {

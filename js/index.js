@@ -35,7 +35,7 @@ const array = [{
   name: 'Marina Gorbis',
   position: 'Executive Director - Institute for the Future of Education',
   description: 'Application of technological tools to improve the quality of education and the teaching-learning process.',
-  image: '"./images/marina-gorbid.webp"',
+  image: '"./images/marina-gorbis-b.png"',
   id: '4',
 },
 
@@ -43,7 +43,7 @@ const array = [{
   name: 'Michael Crow',
   position: 'President - Arizona State University',
   description: 'Application of technological tools to improve the quality of education and the teaching-learning process.',
-  image: '"./images/michael-crow.webp"',
+  image: '"./images/michael-crow-b.png"',
   id: '5',
 },
 
@@ -51,7 +51,7 @@ const array = [{
   name: 'Patrice Potvin',
   position: 'Director - Science & Technology ERT - Université du Québec',
   description: 'Research in current and emerging trends in the field of education.',
-  image: '"./images/patrice-potvin.webp"',
+  image: '"./images/patrice-potvin-b.png"',
   id: '6',
 },
 
