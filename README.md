@@ -28,7 +28,7 @@ Module 1 Capstone Project - Conference page (HTML, CSS & JAVASCRIPT)
 
 # 📖 [MV_Capstone_project_M1 - Module 1 Capstone Project - Conference Page (HTML, CSS & JAVASCRIPT).] <a name="about-project"></a>
 
-**MV_Capstone_project_M1** It's a Conference Page responsive web site! This is a Capstone Project to include all learning topics of Microverse Program's Module 1. Second branch: Desktop version.
+**MV_Capstone_project_M1** It's a Conference Page responsive web site! This is a Capstone Project to include all learning topics of Microverse Program's Module 1. Final branch: Document the project.
 
 
 ## 🛠️ Built With <a name="built-with">
@@ -110,11 +110,11 @@ To run the project, execute the following command:
 To run tests, run the following command:
 
 ```sh
-  npx hint . --fix
+  npx hint . (option: --fix)
   
-  npx stylelint "**/*.{css,scss}" --fix
+  npx stylelint "**/*.{css,scss}" (option: --fix)
 
-  npx eslint . --fix
+  npx eslint . (option: --fix)
 ```
 
 <!-- AUTHORS -->
@@ -134,8 +134,7 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Interactions**
-- **Dynamic HTML section**
+- **Accessibility features**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -162,6 +161,8 @@ If you like this project, please support me with a like or a star.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 Thanks to my learning partners and the staff at Microverse.
+
+Thanks to Cindy Shin, the designer of this awesome 'CC Global Summit 2015' design. You can find it here: https://www.behance.net/gallery/29845175/CC-Global-Summit-2015
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
