@@ -20,6 +20,10 @@ a {
   color: #272a31;
 }
 
+button {
+  font-family: 'Lato', sans-serif;
+}
+
 .lato {
   font-family: 'Lato', sans-serif;
 }
@@ -33,18 +37,21 @@ a {
 
 .a-menu {
   color: #272a31;
+  font-size: 0.85rem;
 }
 
 .a-menu:hover {
   /* color: rgb(250, 116, 7); */
   color: #ec5242;
   /* background-color: #fdf5e6; */
+  font-size: 0.85rem;
   border: 4px solid #ec5242;
   border-radius: 4px;
 }
 
 .a-menu:active {
   color: #ec5242;
+  font-size: 0.85rem;
   border: 4px solid #ec5242;
   border-radius: 4px;
 }
@@ -55,6 +62,7 @@ a {
 
 .a-menub {
   color: #ec5242;
+  font-size: 0.85rem;
   border: 4px solid #ec5242;
   border-radius: 4px;
 }
@@ -101,19 +109,8 @@ ul {
   margin-top: 50px;
 }
 
-.cocogoose {
-  font-family: 'COCOGOOSE', sans-serif;
-}
-
 .h2-red {
   color: #ec5242;
-  padding-top: 30px;
-  padding-bottom: 20px;
-  font-weight: 500;
-}
-
-.h2-white {
-  color: #fff;
   padding-top: 30px;
   padding-bottom: 20px;
   font-weight: 500;
@@ -122,22 +119,13 @@ ul {
 .h2-gray {
   color: #aaa9a9;
   padding-top: 30px;
-  padding-bottom: 20px;
+  padding-bottom: 0;
   font-weight: 500;
 }
 
 .icons {
   color: #fff;
   width: 50%;
-}
-
-.btn-red {
-  margin: 20px 22% 40px 25%;
-  padding: 12px;
-  border-radius: 4px;
-  background-color: #ec5242;
-  color: #fff;
-  font-weight: 400;
 }
 
 .speak {
@@ -156,15 +144,29 @@ ul {
   }
 
   header {
-    width: 98%;
-    margin: 3% 1% 5% 1%;
+    width: 94%;
+    margin: 3% 3% 5% 3%;
   }
 
   #speakers {
     padding-bottom: 30px;
   }
 
+  .cocogoose {
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: 3rem;
+    /* margin-top: 10px; */
+  }
+
+  .cocogoose2 {
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: 3rem;
+    /* margin-top: 70px; */
+    text-align: center;
+  }
+
   .para5 {
+    font-weight: 400;
     border: 3px solid #fff;
     border-radius: 4px;
     background-color: #d3d3d3;
@@ -186,8 +188,20 @@ ul {
     margin-left: 47%;
   }
 
+  .h2-white {
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 0;
+    font-weight: 500;
+  }
+
   .logo-ife {
     display: none;
+  }
+
+  .logo-ife2 {
+    display: block;
+    padding-left: 24vw;
   }
 
   .vector {
@@ -243,6 +257,7 @@ ul {
   }
 
   .hmb-menu {
+    padding-top: 7px;
     display: block;
   }
 
@@ -255,13 +270,23 @@ ul {
     background-color: transparent;
   }
 
-  .p-red,
-  .p-red2 {
+  .p-red {
+    font-weight: 400;
     color: #ec5242;
     padding-top: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
     font-size: 1.5em;
-    font-weight: 500;
+    margin-bottom: 8px;
+  }
+
+  .p-red2 {
+    font-weight: 400;
+    color: #ec5242;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    font-size: 1.5em;
+    margin-bottom: 8px;
+    text-align: center;
   }
 
   .div1 {
@@ -270,7 +295,8 @@ ul {
     display: flex;
     padding: 2px;
     margin-bottom: 4px;
-    background-color: #38393d;
+    /* background-color: #38393d; */
+    background-color: rgba(56, 57, 61, 0.7);
     border-radius: 4px;
   }
 
@@ -306,6 +332,34 @@ ul {
     font-size: 0.8rem;
   }
 
+  .cotainer1 {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .btn-red {
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 12px;
+    border-radius: 4px;
+    background-color: #ec5242;
+    color: #fff;
+    font-weight: 400;
+  }
+
+  .btn-arrow {
+    margin-left: 10px;
+  }
+
+  .btn-arrow2 {
+    transform: rotate(180deg);
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+
   .card-title {
     padding-right: 4px;
     color: #ec5242;
@@ -336,7 +390,7 @@ ul {
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content:flex-start;
   }
 
   .icon1,
@@ -379,13 +433,13 @@ ul {
   .partners {
     padding: 0.4rem;
     border-radius: 8px;
-    max-width: 35%;
+    /* max-width: 35%; */
   }
 
   .conf2 {
     width: 90%;
-    margin-left: 10%;
-    margin-right:10%;
+    margin-left: 5%;
+    margin-right:5%;
   }
 
   .ife-logo-img {
@@ -397,7 +451,8 @@ ul {
   }
 
   .ife1-img {
-    margin: 8px 5% 20px 14%;
+    width: 90%;
+    margin: 8px 5% 20px 5%;
     border-radius: 4px;
   }
 
@@ -491,6 +546,8 @@ ul {
     margin-top: 20px;
     margin-left: 2.5%;
     padding: 8px;
+    color: #272a31;
+    font-weight: 500;
     border-radius: 8px;
     border: solid 1px #d3d3d3;
     background-color: #fff;
@@ -509,6 +566,8 @@ ul {
     margin-top: 20px;
     margin-left: 2.5%;
     padding: 8px;
+    color: #272a31;
+    font-weight: 500;
     border-radius: 8px;
     border: solid 1px #d3d3d3;
     background-color: #fff;
@@ -558,6 +617,23 @@ ul {
     margin: 3% 17% 5% 18%;
   }
 
+  .cocogoose {
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: 3.2rem;
+    /* margin-top: 10px; */
+  }
+
+  .cocogoose2 {
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: 3.5rem;
+    margin-top: 70px;
+    text-align: center;
+  }
+
+  .logo-ife2 {
+    display: none;
+  }
+
   .hr-home2 {
     border-top: solid 4px #cf4232;
     width: 5%;
@@ -586,6 +662,7 @@ ul {
   }
 
   #partner-i {
+    width: 100%;
     display: block;
   }
 
@@ -602,6 +679,7 @@ ul {
   }
 
   .para5 {
+    font-weight: 400;
     border: 3px solid #fff;
     border-radius: 4px;
     background-color: #d3d3d3;
@@ -627,7 +705,7 @@ ul {
   }
 
   .collapse {
-    margin-right: 10%;
+    margin-right: 5%;
   }
 
   .hmb-menu {
@@ -647,13 +725,16 @@ ul {
   }
 
   .row1 {
+    /* width: 80%;
+    margi */
     display: flex;
     margin-bottom: 35px;
   }
 
   .row2 {
     width: 80%;
-    margin-left: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
     display: flex;
     padding-bottom: 25px;
   }
@@ -661,9 +742,10 @@ ul {
   .p-red {
     color: #ec5242;
     padding-top: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
     font-size: 2em;
-    font-weight: 500;
+    font-weight: 400;
+    margin-bottom: 8px;
   }
 
   .p-red2 {
@@ -685,7 +767,7 @@ ul {
   }
 
   .card-text {
-    font-size: small;
+    font-size: 0.6rem;
     font-weight: 200;
   }
 
@@ -697,18 +779,19 @@ ul {
   }
 
   .list-group {
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
     gap: 4px;
   }
 
   .div1 {
-    width: 18%;
+    width: 100%;
     padding-top: 4px;
     padding-bottom: 4px;
     /* padding-left: 4px;
     padding-right: 4px; */
-    background-color: #38393d;
+    background-color: rgba(56, 57, 61, 0.7);
     border-radius: 4px;
   }
 
@@ -735,6 +818,7 @@ ul {
 
   .partners {
     padding: 0.6rem;
+    background-color: transparent;
   }
 
   .grid1 {
@@ -786,8 +870,10 @@ ul {
   }
 
   .div-photos {
+    width: 60%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+
   }
 
   .name-sp {
@@ -810,8 +896,8 @@ ul {
 
   .conf2 {
     width: 90%;
-    margin-left: 10%;
-    margin-right:10%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   .ife-logo-img {
@@ -830,7 +916,8 @@ ul {
   .ife1-img {
     /* max-width: 60%; */
     border-radius: 6px;
-    margin: 8px 0 20px 0;
+    width: 60%;
+    /* margin: 8px 0 20px 0; */
   }
 
   .para4 {
@@ -859,9 +946,11 @@ ul {
   }
 
   .col3 {
-    width: 70%;
-    padding-left: 20px;
+    width: 90%;
+    padding-left: 15px;
+    padding-right: 6px;
     padding-bottom: 8px;
+    text-align: center;
   }
 
   .div1 h3 {
