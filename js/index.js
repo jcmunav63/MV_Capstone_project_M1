@@ -32,10 +32,10 @@ const array = [{
 },
 
 {
-  name: 'Marina Gorbis',
-  position: 'Executive Director - Institute for the Future of Education',
+  name: 'Elena Arias',
+  position: 'Senior Education Specialist - Interamerican Development Bank (IDB)',
   description: 'Application of technological tools to improve the quality of education and the teaching-learning process.',
-  image: '"./images/marina-gorbis-b.png"',
+  image: '"./images/elena-arias-b.png"',
   id: '4',
 },
 
