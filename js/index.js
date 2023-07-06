@@ -3,7 +3,7 @@ const array = [{
   name: 'Raquel Bernal',
   position: 'Rector - University of Los Andes',
   description: 'Management of educational innovation.',
-  image: '"./images/raquel-bernal.webp"',
+  image: '"./images/raquel-bernal-b.png"',
   id: '0',
 },
 
@@ -11,7 +11,7 @@ const array = [{
   name: 'Ignacio Sánchez Díaz',
   position: 'Rector - Pontifical Catholic University of Chile',
   description: 'Acquisition of knowledge, skills, and competencies throughout a person\'s life.',
-  image: '"./images/ignacio-sanchez.webp"',
+  image: '"./images/ignacio-sanchez-b.png"',
   id: '1',
 },
 
@@ -19,7 +19,7 @@ const array = [{
   name: 'David Garza',
   position: 'Rector - Instituto Tecnológico de Monterrey',
   description: 'Management of educational innovation.',
-  image: '"./images/david-garza.webp"',
+  image: '"./images/david-garza-b.png"',
   id: '2',
 },
 
@@ -27,15 +27,15 @@ const array = [{
   name: 'Kim Wilcox',
   position: 'Chancellor - University of California',
   description: 'Application of technological tools to improve the quality of education and the teaching-learning process.',
-  image: '"./images/kim-wilcox.png"',
+  image: '"./images/kim-wilcox-b.png"',
   id: '3',
 },
 
 {
-  name: 'Marina Gorbis',
-  position: 'Executive Director - Institute for the Future of Education',
+  name: 'Elena Arias',
+  position: 'Senior Education Specialist - Interamerican Development Bank (IDB)',
   description: 'Application of technological tools to improve the quality of education and the teaching-learning process.',
-  image: '"./images/marina-gorbis.webp"',
+  image: '"./images/elena-arias-b.png"',
   id: '4',
 },
 
@@ -43,7 +43,7 @@ const array = [{
   name: 'Michael Crow',
   position: 'President - Arizona State University',
   description: 'Application of technological tools to improve the quality of education and the teaching-learning process.',
-  image: '"./images/michael-crow.webp"',
+  image: '"./images/michael-crow-b.png"',
   id: '5',
 },
 
@@ -51,7 +51,7 @@ const array = [{
   name: 'Patrice Potvin',
   position: 'Director - Science & Technology ERT - Université du Québec',
   description: 'Research in current and emerging trends in the field of education.',
-  image: '"./images/patrice-potvin.webp"',
+  image: '"./images/patrice-potvin-b.png"',
   id: '6',
 },
 
@@ -59,7 +59,7 @@ const array = [{
   name: 'Anant Agarwal',
   position: 'CEO - EDx & Professor of EE&CS at MIT',
   description: 'Research in current and emerging trends in the field of education.',
-  image: '"./images/anant-agarwal.webp"',
+  image: '"./images/anant-agarwal-b.png"',
   id: '7',
 },
 ];
@@ -78,7 +78,7 @@ function loadGrid() {
     </div>
     <div class="div2-sp">
       <p class="name-sp">${array[i].name}</p>
-      <p class="position-sp">${array[i].position}</p>
+      <p class="position-sp"><em>${array[i].position}</em></p>
       <p class="descr-sp">${array[i].description}</p>
     </div>
     `;
